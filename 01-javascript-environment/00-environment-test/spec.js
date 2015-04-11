@@ -10,3 +10,4 @@ describe('Environment Check', function() {
     assert.notEqual(undefined, rosie);
   });
 });
+//spec
