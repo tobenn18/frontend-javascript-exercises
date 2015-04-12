@@ -102,4 +102,3 @@ describe("substringBetweenMatches", function() {
     expect(result).to.eql(" day to play during the ");
   });
 });
-
