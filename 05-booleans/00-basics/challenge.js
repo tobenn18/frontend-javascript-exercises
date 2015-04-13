@@ -9,6 +9,7 @@ module.exports.inBetween = function(lower, middle, upper) {
     return lower < middle && middle < upper;
             
 };
+
 module.exports.outsideRanges = function(number) {
     var inRange = (10 <= number && number <= 20)
                 ||(42 < number && number <= 75) 
@@ -16,6 +17,7 @@ module.exports.outsideRanges = function(number) {
                 ;
         return !inRange;
 };
+
 module.exports.nameAndPrice = function(name, price) {
     return (name === 'NYTimes' || name === 'LATimes') && (price >= 1);
 };
