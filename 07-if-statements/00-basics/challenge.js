@@ -29,7 +29,6 @@ module.exports.checkLock = function(a,b,c,d) {
       }
     };
 
-
 module.exports.canIGet = function(item,money){
     if(item == "MacBook Air" && money >= 999){
         return true;
@@ -48,3 +47,4 @@ module.exports.canIGet = function(item,money){
     }
 
 };
+//
