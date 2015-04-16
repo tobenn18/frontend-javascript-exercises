@@ -28,3 +28,4 @@ module.exports.canIGet = function(item,money){
     product = price[item];
     return (price !== undefined && money >= product);
 };
+//

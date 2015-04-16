@@ -5,7 +5,6 @@ module.exports.reversePlusOne = function(a){
     };
 
 module.exports.plusesEverywhere = function(a){
-    
     return a.join("+");
 };
 
