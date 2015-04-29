@@ -7,7 +7,7 @@
     reversePlusOne([5,4,3,2]); // returns [1,2,3,4,5]
     ```*/
 module.exports.reversePlusOne = function(a){
-    a.reverse(),a.unshift(1);/*why don't I need brackets? Not a new array?Why don't I need a var?*/
+    a.reverse(),a.unshift(1);
     return a;
 };
 /*- Take one argument, an array of at least two numbers.
